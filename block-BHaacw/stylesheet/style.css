@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.body {
+  background-color: #394B4F;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.navbar {
+  border-top: 2px solid skyblue;
+  background-color: white;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: skyblue;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+.article {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  padding-top: 1rem;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article .item {
+  border-top: 0.3rem solid skyblue;
+  padding: 0.5rem;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article .item h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.article .item a {
+  color: red;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+.article img {
+  width: 60%;
+  border-radius: 60%;
+}
+
+.article .main {
+  grid-row: span 3;
+}
+
+.article figure {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.article .side-barl-2 {
+  grid-row: span 2;
+}
+/*# sourceMappingURL=style.css.map */
